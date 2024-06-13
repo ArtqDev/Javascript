@@ -1,6 +1,5 @@
-console.log('ola');
+function display(){
 
-//  window.alert('bora ganbada de viado');
-
-document.getElementById("titulo").textContent = "TITULO";
-document.getElementById("paragrafo").textContent = "lorem";
+var col = document.getElementsByTagName("div")
+  col.style.color="#1100ff";
+}
